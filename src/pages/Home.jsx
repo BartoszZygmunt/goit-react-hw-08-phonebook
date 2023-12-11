@@ -18,7 +18,7 @@ export const Home = () => {
         color="text.primary"
         gutterBottom
       >
-        Hello my Friend!
+        {isLogged ? 'Hello my Friend!' : 'Dear Guest!'}
       </Typography>
       <Typography
         variant="h4"
