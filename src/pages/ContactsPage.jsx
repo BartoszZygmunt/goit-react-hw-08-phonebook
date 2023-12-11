@@ -24,7 +24,7 @@ export const ContactsPage = () => {
         flexGrow: 1,
         display: 'flex',
         flexDirection: 'column',
-        gap: '30px',
+        gap: '40px',
       }}
     >
       <Typography
@@ -34,7 +34,7 @@ export const ContactsPage = () => {
         color="text.primary"
         gutterBottom
       >
-        Phonebook
+        Your phonebook
       </Typography>
       <ContactForm />
 

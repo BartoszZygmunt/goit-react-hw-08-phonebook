@@ -8,7 +8,6 @@ import TextField from '@mui/material/TextField';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
@@ -40,11 +39,8 @@ export const LoginForm = () => {
           alignItems: 'center',
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-          <LockOutlinedIcon />
-        </Avatar>
         <Typography component="h1" variant="h5">
-          Sign in
+          Log in
         </Typography>
         <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
           <TextField
@@ -73,7 +69,7 @@ export const LoginForm = () => {
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
           >
-            Sign In
+            Log In
           </Button>
           <Grid container>
             <Grid item xs></Grid>

@@ -9,7 +9,7 @@ export const Home = () => {
       disableGutters
       maxWidth="sm"
       component="main"
-      sx={{ pt: 8, pb: 6 }}
+      sx={{ pt: 10, pb: 8 }}
     >
       <Typography
         component="h1"
@@ -18,18 +18,17 @@ export const Home = () => {
         color="text.primary"
         gutterBottom
       >
-        Welcome in Phonebook!
+        Hello my Friend!
       </Typography>
       <Typography
-        variant="h5"
+        variant="h4"
         align="center"
         color="text.secondary"
         component="p"
       >
-        This is phonebook web application. You are{' '}
         {isLogged
-          ? 'logged in. Check contacts page to manage your phonebook.'
-          : 'logged out. Please sign in or register to use this page.'}
+          ? 'Click contacts menu to manage your phonebook.'
+          : 'You are not logged in! Please sign in or register first!'}
       </Typography>
     </Container>
   );

@@ -42,7 +42,7 @@ export const ContactForm = () => {
               flexGrow: 1,
               display: 'flex',
               flexDirection: 'column',
-              gap: '30px',
+              gap: '20px',
             }}
           >
             <TextField

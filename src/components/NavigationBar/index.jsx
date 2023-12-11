@@ -11,7 +11,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+import SettingsPhoneIcon from '@mui/icons-material/SettingsPhone';
 import { Link as RouterLink } from 'react-router-dom';
 import MenuItem from '@mui/material/MenuItem';
 
@@ -66,23 +66,23 @@ export const NavigationBar = () => {
       <AppBar position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <PhoneAndroidIcon
+            <SettingsPhoneIcon
               sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
             />
             <Typography
-              variant="h6"
+              variant="h4"
               noWrap
               sx={{
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
                 fontFamily: 'monospace',
-                fontWeight: 700,
+                fontWeight: 800,
                 letterSpacing: '.3rem',
                 color: 'inherit',
                 textDecoration: 'none',
               }}
             >
-              PHONEBOOK
+              Your Phonebook
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
               <IconButton

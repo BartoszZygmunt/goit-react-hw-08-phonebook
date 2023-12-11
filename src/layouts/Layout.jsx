@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 export const Layout = () => {
   return (
     <div>
-      <NavigationBar />
+      {<NavigationBar />}
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
       </Suspense>
